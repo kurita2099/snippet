@@ -40,6 +40,30 @@ https://developer.android.com/studio/releases/platform-tools
 			NOXPLAYER
 			GenyMotion
 		などをインストールし　開発モードにする
+		
+		アプリが実行されたらエミュレーターを選択し、command + Mを押してDeveloper Menuを起動
+		
+		　adb shell input keyevent 82　→実際のアンドロイド端末
+		 
+		
+	VSCODE上でデバッグ
+		https://qiita.com/t_okkan/items/2b6b94340b837189054c
+
+</div>
+</details>
+<details>
+<summary>
+	ADB をUSBでなくWIFI経由でワイヤレスにする
+</summary>
+<div>
+$adb tcpip 5555
+#restarting in TCP mode port: 5555
+
+adb connect 接続したい端末のIPアドレス:ポート番号
+次にネットワーク経由で接続したい実機のIPアドレスと設定したポート番号を指定してあげます。
+(実機のIPアドレスについてはDHCPから静的な割当に設定しておくと捗るかもしれません。)
+
+$adb connect 192.168.??.??:5555
 
 </div>
 </details>
