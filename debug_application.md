@@ -1,7 +1,9 @@
-１）アプリのデバッグの仕方
-------------------------------------------
-　　WEBアプリ（Javascript)
-
+#アプリのデバッグの仕方
+<details>
+<summary>
+WEBアプリ（Javascript)
+</summary>
+<div>
 　　PC →CHROMEのデバッガー（PC）
    
 　　モバイル
@@ -15,10 +17,13 @@
 	https://qiita.com/unsoluble_sugar/items/2a3d06631a6b8259dc44
 	(※ sourcemapが読み込まれず webpack.config.jsに
 　　　　　devtool: 'inline-source-map'追記しビルドしたjavascriptにsource-mapを書き出す）
-
---------------------------
+</div>
+</details>
+<details>
+<summary>
 	ReactNaive
-
+</summary>
+<div>
 		ブラウザでデバッグ
 			run in web Browser
 			↓
@@ -36,3 +41,5 @@ https://developer.android.com/studio/releases/platform-tools
 			GenyMotion
 		などをインストールし　開発モードにする
 
+</div>
+</details>
