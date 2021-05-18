@@ -17,6 +17,15 @@ WEBアプリ（Javascript)
 	https://qiita.com/unsoluble_sugar/items/2a3d06631a6b8259dc44
 	(※ sourcemapが読み込まれず webpack.config.jsに
 　　　　　devtool: 'inline-source-map'追記しビルドしたjavascriptにsource-mapを書き出す）
+	
+　　Chrome のリモートデバッグ(IDE editor からデバッグ）
+	chrome起動にオプションをつけて起動する必要がある
+WIN→
+	 Chrome や　EDGEの場合
+	--remote-debugging-port=9222　をショートカットのプロパティで引数を追記
+MAC→
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
+
 </div>
 </details>
 <details>
